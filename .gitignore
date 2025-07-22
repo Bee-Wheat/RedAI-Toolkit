@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Logs and outputs
+logs/
+*.log
+*.out
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python env files
+.env
+.env.*
+
+# ollama & model cache (if added)
+*.bin
+models/
+checkpoints/
+weights/
+
+# Reports/output artifacts
+reports/*.pdf
+reports/*.docx
+reports/*.md
+
+# Experiment data
+experiments/*.tmp
+experiments/*.csv
+experiments/*.json
