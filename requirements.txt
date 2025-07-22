@@ -1,0 +1,30 @@
+# Core LLM Security / Adversarial Testing
+textattack==0.3.8
+transformers==4.41.1
+torch>=2.1.0
+
+# Prompt evaluation & attack framework
+promptbench>=0.0.1  # Unified library for adversarial prompt attacks
+
+# Prompt engineering & model evaluation
+openai
+datasets
+sentencepiece
+
+# For logging & output
+rich
+loguru
+
+# Utilities & shell helpers
+tqdm
+colorama
+requests
+
+# For experiment scripting
+jupyter
+ipython
+
+# OPTIONAL (install as needed)
+# counterfit @ git+https://github.com/Azure/counterfit.git
+# langchain==0.2.1
+# llama-index==0.10.33
